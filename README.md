@@ -1,5 +1,5 @@
-# OmniAuth TikTok (Marketing API) OAuth2 Strategy
-Strategy to authenticate with TikTok (Marketing API) via OAuth2 in OmniAuth
+# OmniAuth TikTok (Accounts API) OAuth2 Strategy
+Strategy to authenticate with TikTok (Accounts API) via OAuth2 in OmniAuth
 
 Sign up and create your Application https://business-api.tiktok.com/portal/docs?id=1760334598980610. 
 Note the App ID and the App Secret.
