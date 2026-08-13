@@ -73,7 +73,7 @@ module OmniAuth
       end
 
       def access_token_info
-        access_token.to_hash.stringify_keys
+        access_token.to_hash.each_with_object({}) { |(key, value), hash| hash[key.to_s] = value }
       end
 
       # It is necessary to override this method to avoid the "Content-Type" string getting turned into a symbol.
